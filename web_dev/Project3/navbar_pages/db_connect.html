@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">  
+
+    <link rel="stylesheet" type="text/css" href="../style.css">
+
+    <title>Project2</title>
+	<style>
+  	 body {
+  		background-image: url(../fon2.jpg); 
+ 	   	background-color: #c7b39b; 
+ 	  }
+  </style>
+  </head>
+  <body>
+	<iframe src="../menu.html" width="100%" height="190" style="border:0"></iframe>
+	
+	<form action ="../backend/db_connect.php" method ="post">
+			MySQL_server: <input type ="text" name ="DB" value ="localhost" ><br >
+			MySQL_user: <input type ="text" name ="DBuser"><br >
+			MySQL_password: <input type ="text" name ="DBpass"><br >
+			<input type ="submit" value ="Run SQL query" >
+		</form >
+
+  </body>
+</html>
